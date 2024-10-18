@@ -1,7 +1,6 @@
 const assert = require('assert');
 const cekBilanganPrima = require('../question/CekBilanganPrima');
 
-// ! Cara run javascript test: npx mocha test/Test_CekBilanganPrima.js
 
 describe('CekBilanganPrima', function () {
     it('Test case 1: Bilangan prima', function () {

@@ -1,7 +1,6 @@
 const assert = require('assert');
 const hitungHuruf = require('../question/HitungHuruf');
 
-// ! Cara run javascript test: npx mocha test/Test_HitungHuruf.js
 
 describe('HitungHuruf', function () {
     it('Test case 1: Menghitung huruf dalam string dengan spasi', function () {
