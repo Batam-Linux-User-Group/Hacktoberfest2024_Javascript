@@ -8,10 +8,19 @@
 
 // ! Jangan ubah nama function
 function faktorial(n) {
-   // Tulis kodemu disini
+  // Tulis kodemu disini
 
+  if (n === 0 || n === 1) {
+    return 1;
+  }
 
+  let hasil = 1;
+
+  for (let i = 1; i <= n; i++) {
+    hasil *= i;
+  }
+
+  return hasil;
 }
-
 
 module.exports = faktorial;
